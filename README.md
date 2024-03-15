@@ -24,6 +24,8 @@ Team No : PU111
 ### What is a food recommendation engine?
 Food recommendation systems revolutionize dining experiences by seamlessly blending technology with culinary exploration. These systems harness intricate algorithms and user data to curate personalized suggestions for recipes, restaurants, and dietary plans. From catering to dietary restrictions and cultural preferences to facilitating serendipitous discoveries, they streamline decision-making while enhancing satisfaction. By analyzing past interactions and leveraging cutting-edge machine learning techniques, food recommendation systems empower users to embark on gastronomic journeys tailored to their unique tastes and preferences. With every recommendation, they offer a gateway to a world of culinary delights, making dining more enjoyable, convenient, and fulfilling than ever before.
 
+<div align= "center"><img src="Assets\file_2024-03-15_04.10.43.png" /></div>
+
 ### Model developement
 The recommendation engine is built using Nearest Neighbors alogrithm which is an unsupervised learner for implementing neighbor searches.
 
