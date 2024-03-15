@@ -3,8 +3,8 @@
 # Diet-Recommendation-System
 
 ## :bookmark_tabs:Table of contents
-* [Team info](#Team info)
-* [Project info](#Project info)
+* [Team_info](#Team info)
+* [Project_info](#Project info)
 * [Setup](#setup)
 
 ## :scroll: Team info
@@ -34,7 +34,7 @@ The application is built using the FastAPI framework, which allows for the creat
 
 ### Frontend Developement
 
-The application's front-end is made with Streamlit. Streamlit is an open source app framework in Python language. It helps to create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc. 
+The application's front-end is made with Streamlit. Streamlit is an open source app framework in Python language. It helps to create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, NumPy, pandas, Matplotlib etc. 
 
 #### Docker-Compose
 My project is composed of different services (frontend,API). Therefore, our application should run on multiple containers. With the help of Docker-compose we can share our application using the yaml file that define the services that runs together.
