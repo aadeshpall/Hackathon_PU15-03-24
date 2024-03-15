@@ -41,7 +41,7 @@ def main():
     st.write(f"Lunch Time: {lunch_time}")
     st.write(f"Dinner Time: {dinner_time}")
 
-    # Get user's phone number
+    
     phone_number = st.text_input("Enter your phone number (with country code, e.g., +1234567890):")
 
     if st.button("Send SMS Notifications"):
@@ -50,6 +50,22 @@ def main():
             st.success("SMS notifications sent successfully!")
         else:
             st.error("Please enter a valid phone number.")
+
+    # # Continuously check the time and send SMS notifications
+    # while True:
+    #     current_time = datetime.datetime.now().time()
+    #     if current_time == breakfast_time:
+    #         if phone_number:
+    #             send_sms(phone_number, "It's time for breakfast!")
+    #     elif current_time == lunch_time:
+    #         if phone_number:
+    #             send_sms(phone_number, "It's time for lunch!")
+    #     elif current_time == dinner_time:
+    #         if phone_number:
+    #             send_sms(phone_number, "It's time for dinner!")
+
+    #     # Check every minute
+    #     time.sleep(60)
 
 if __name__ == "__main__":
     main()
