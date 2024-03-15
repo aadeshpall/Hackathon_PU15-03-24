@@ -3,8 +3,8 @@
 # Diet-Recommendation-System
 
 ## :bookmark_tabs:Table of contents
-* [Team_info](#Team info)
-* [Project_info](#Project info)
+* [Team info](#Team-info)
+* [Project info](#Project-info)
 * [Setup](#setup)
 
 ## :scroll: Team info
