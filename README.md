@@ -1,6 +1,6 @@
 <h1 align="center">Food Recommendation System</h1>
 
-# Diet-Recommendation-System
+# Food-Recommendation-System
 
 ## :bookmark_tabs:Table of contents
 * [Team info](#Team-info)
@@ -9,10 +9,11 @@
 
 ## :scroll: Team info
 ### Team Name : ideal bits
-Team members : Pratham Gautam
-               Aditya Das
-               Divyajeet Parmar
-               Niranjan Pal
+Team members : 
+* Pratham Gautam
+* Aditya Das
+* Divyajeet Parmar
+* Niranjan Pal
 
 Team No : PU111
 
@@ -24,7 +25,7 @@ Team No : PU111
 Food recommendation systems revolutionize dining experiences by seamlessly blending technology with culinary exploration. These systems harness intricate algorithms and user data to curate personalized suggestions for recipes, restaurants, and dietary plans. From catering to dietary restrictions and cultural preferences to facilitating serendipitous discoveries, they streamline decision-making while enhancing satisfaction. By analyzing past interactions and leveraging cutting-edge machine learning techniques, food recommendation systems empower users to embark on gastronomic journeys tailored to their unique tastes and preferences. With every recommendation, they offer a gateway to a world of culinary delights, making dining more enjoyable, convenient, and fulfilling than ever before.
 
 ### Model developement
-The recommendation engine is built using Nearest Neighbors alogrithm which is an unsupervised learner for implementing neighbor searches. It acts as a uniform interface to three different nearest neighbors algorithms: BallTree, KDTree, and a brute-force algorithm based on routines in sklearn.
+The recommendation engine is built using Nearest Neighbors alogrithm which is an unsupervised learner for implementing neighbor searches.
 
 ### Dataset
 I used Food.com kaggle dataset Data with over 7000+ recipes. Visit this [kaggle](https://www.kaggle.com/datasets/shrutisaxena/food-nutrition-dataset)
@@ -63,6 +64,6 @@ In the project root run:
 ```
 $ docker-compose up -d --build
 ```
-Then open http://localhost:8501 and enjoy :smiley:.
+Then open http://localhost:8501
 
 PS: You should have docker and docker-compose
