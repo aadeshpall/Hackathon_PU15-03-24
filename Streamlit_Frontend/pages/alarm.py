@@ -1,17 +1,16 @@
 import streamlit as st
 import datetime
 from twilio.rest import Client as TwilioClient
-import time
 
 # Twilio credentials (replace these with your own)
 TWILIO_SID = 'AC6048c38b57662163c389bcd6f0cd6e2b'
-TWILIO_AUTH_TOKEN = '81e4d260e492624a120a2dae97b127fb'
+TWILIO_AUTH_TOKEN = '98693e4ec2c79f75c09dfa3ef0698be2'
 TWILIO_PHONE_NUMBER = '+13212030357'
 
 # Function to send SMS using Twilio
 def send_sms(to, body):
     client = TwilioClient(TWILIO_SID, TWILIO_AUTH_TOKEN)
-    client.messages.create(
+    message = client.messages.create(
         body=body,
         from_=TWILIO_PHONE_NUMBER,
         to=to
@@ -44,23 +43,6 @@ def main():
 
     # Get user's phone number
     phone_number = st.text_input("Enter your phone number (with country code, e.g., +1234567890):")
-
-
-    # while True:
-    #     current_time = datetime.datetime.now().time()
-    #     if current_time == breakfast_time:
-    #         if phone_number:
-    #             send_sms(phone_number, "It's time for breakfast!")
-    #     elif current_time == lunch_time:
-    #         if phone_number:
-    #             send_sms(phone_number, "It's time for lunch!")
-    #     elif current_time == dinner_time:
-    #         if phone_number:
-    #             send_sms(phone_number, "It's time for dinner!")
-
-        # Check every minute
-        # time.sleep(60)
-
 
     if st.button("Send SMS Notifications"):
         if phone_number:
