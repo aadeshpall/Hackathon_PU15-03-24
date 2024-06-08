@@ -7,7 +7,7 @@
 * [Technologies](#Technologies)
 * [Setup](#setup)
 
-## :scroll: Team info
+## Team info
 ### Team Name : ideal bits
 Team members : 
 * Niranjan Pal
