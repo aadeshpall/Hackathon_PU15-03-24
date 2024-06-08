@@ -2,7 +2,7 @@
 
 
 ## :bookmark_tabs:Table of contents
-* [Team info](#Team-info)
+* [:scroll: Team info](#:scroll: Team info)
 * [Project info](#Project-info)
 * [Technologies](#Technologies)
 * [Setup](#setup)
