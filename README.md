@@ -1,6 +1,5 @@
 <h1 align="center">Food Recommendation System</h1>
 
-# Food-Recommendation-System
 
 ## :bookmark_tabs:Table of contents
 * [Team info](#Team-info)
