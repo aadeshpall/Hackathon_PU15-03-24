@@ -42,7 +42,7 @@ The application's front-end is made with Streamlit. Streamlit is an open source 
 #### Docker-Compose
 My project is composed of different services (frontend,API). Therefore, our application should run on multiple containers. With the help of Docker-compose we can share our application using the yaml file that define the services that runs together.
 
-## :rocket: Technologies
+## Technologies
 The project is created with:
 * Python: 3.10.8
 * fastapi 0.88.0
