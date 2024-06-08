@@ -9,10 +9,10 @@
 ## :scroll: Team info
 ### Team Name : ideal bits
 Team members : 
+* Niranjan Pal
 * Pratham Gautam
 * Aditya Das
 * Divyajeet Parmar
-* Niranjan Pal
 
 Team No : PU111
 
